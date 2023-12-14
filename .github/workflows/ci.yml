@@ -1,11 +1,6 @@
 name: Java CI
 
-on:
-  push:
-    branches:
-      - main 
-  pull_request:
-    types: [closed]
+on: [push, pull_request]
 
 jobs:
   build:
